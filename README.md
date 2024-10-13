@@ -48,8 +48,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/react-dice-roller.git
-cd react-dice-roller
+git clone https://github.com/shehzadfalcon/webpack-react-app.git
+cd webpack-react-app
 ```
 ```bash
 # Using npm
