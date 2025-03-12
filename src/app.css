@@ -1,3 +1,79 @@
-h1 {
-    color: red;
+
+body {
+    background: linear-gradient(to right, #30C5D2, #471069);
 }
+
+.dice-container {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+  }
+  
+  .dice-result {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dice-face {
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #6e8efb;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .roll-button {
+    background-color: white;
+    color: #6e8efb;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .roll-button:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .roll-button:active {
+    transform: translateY(0);
+  }
+  
+  .dice-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  @keyframes rolling {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .rolling {
+    animation: rolling 0.6s ease;
+  }
