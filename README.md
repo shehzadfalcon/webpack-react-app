@@ -68,6 +68,7 @@ yarn start
 Open your browser and navigate to http://localhost:3000.
 
 ### 📸 Visuals
+<img width="1439" alt="Screenshot 2025-03-13 at 12 14 00 AM" src="https://github.com/user-attachments/assets/ed422910-5530-41bb-81f1-075a300e44b8" />
 
 
 
